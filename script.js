@@ -16,7 +16,7 @@ const randomColor = () => {
 
 //Updates the gradient display
 const changeColor = () => {
-   let body = document.querySelector("body");
+   const body = document.querySelector("body");
    const color1 = document.getElementById("color1").value;
    const color2 = document.getElementById("color2").value;
 
