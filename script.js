@@ -1,3 +1,9 @@
+// Imports
+var _ = require('lodash');
+
+var array = [0,1,2,3,4,5,6,7,8,9];
+console.log('answer:', _.without(array,3,0));
+
 // Generates a random hex
 const getHex = () => {
     const colorArray = [0,1,2,3,4,5,6,7,8,9,"a","b","c","d","e","f"];
