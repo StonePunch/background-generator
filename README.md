@@ -1,3 +1,3 @@
 # background-generator
 
-Requires npm intall to be run.
+Requires npm install to be run.
